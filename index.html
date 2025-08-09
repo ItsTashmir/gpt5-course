@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 25.2.4.3 (Windows)"/>
+	<meta name="created" content="2025-08-09T14:40:38.745945500"/>
+	<meta name="changed" content="2025-08-09T14:41:33.198930000"/>
+	<style type="text/css">
+		@page { size: 21cm 29.7cm; margin: 2cm }
+		p { line-height: 115%; margin-bottom: 0.25cm; background: transparent }
+	</style>
+</head>
+<body lang="nl-NL" link="#000080" vlink="#800000" dir="ltr"><p style="line-height: 100%; margin-bottom: 0cm">
+&lt;!DOCTYPE html&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">&lt;html lang=&quot;en&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">&lt;head&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  &lt;meta
+charset=&quot;utf-8&quot; /&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  &lt;meta
+name=&quot;viewport&quot; content=&quot;width=device-width,
+initial-scale=1&quot; /&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  &lt;title&gt;Mastering
+GPT-5 in 3 Chapters — Complete Course&lt;/title&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  &lt;meta
+name=&quot;description&quot; content=&quot;A complete, single-file
+course page for a 3-chapter GPT-5 curriculum with fully written
+lessons, labs, prompts, and a capstone.&quot; /&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  &lt;style&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    :root{</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      --bg: #0b0c10;
+--panel: #111318; --ink: #e8eaf0; --sub: #b8c1d1;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      --brand:
+#7dd3fc; --brand-2: #a78bfa; --line: #1c2230;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      --ok: #22c55e;
+--warn: #f59e0b; --danger: #ef4444;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      --shadow: 0
+10px 30px rgba(0,0,0,.35); --radius: 16px;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    @media
+(prefers-color-scheme: light){ :root{ --bg:#f8fafc; --panel:#ffffff;
+--ink:#0b1220; --sub:#404b63; --line:#e8edf5 } }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">   
+html,body{height:100%}</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    body{ margin:0;
+font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Inter,
+Avenir, &quot;Helvetica Neue&quot;, Arial; background: var(--bg);
+color: var(--ink); }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .wrap{
+max-width: 1100px; margin: 0 auto; padding: 24px; }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    header.site{
+position: sticky; top:0; z-index: 30; backdrop-filter: saturate(1.2)
+blur(10px); background: color-mix(in oklab, var(--bg) 75%,
+transparent); border-bottom: 1px solid var(--line) }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .site .inner{
+display:flex; align-items:center; gap:16px;
+justify-content:space-between; padding: 14px 24px }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .brand{
+display:flex; gap:12px; align-items:center; text-decoration:none;
+color:inherit }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .logo{
+width:32px; height:32px; border-radius:12px; background:
+linear-gradient(135deg, var(--brand), var(--brand-2)); box-shadow:
+var(--shadow) }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    h1{ font-size:
+clamp(26px, 3.4vw, 40px); line-height:1.1; margin: 10px 0 8px }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .subtitle{
+color: var(--sub); font-size: 15px; margin-top: 2px }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    nav.toc{
+display:flex; gap: 8px; flex-wrap: wrap }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    nav.toc a{
+text-decoration: none; color: var(--ink); background: var(--panel);
+border:1px solid var(--line); padding:8px 12px; border-radius: 999px;
+font-size: 14px; opacity:.9 }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    nav.toc
+a.active{ outline: 2px solid color-mix(in oklab, var(--brand) 70%,
+white 0%) }</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .hero{ margin:
+24px auto 18px; background: linear-gradient(180deg, color-mix(in
+oklab, var(--brand) 12%, transparent), transparent 55%); border:1px
+solid var(--line); border-radius: var(--radius); padding: 28px;
+box-shadow: var(--shadow) }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .cta-row{
+display:flex; gap:10px; flex-wrap:wrap; margin-top:10px }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .btn{
+appearance:none; border:1px solid var(--line); background:
+var(--panel); color:var(--ink); padding:10px 14px; border-radius:
+12px; cursor:pointer; font-weight:600 }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .btn.primary{
+background: linear-gradient(135deg, var(--brand), var(--brand-2));
+color:#0b0c10; border:none }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .btn.ghost{
+background: transparent }</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    section{ margin:
+30px 0 }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .card{
+background: var(--panel); border:1px solid var(--line);
+border-radius: var(--radius); padding: 22px; box-shadow:
+var(--shadow) }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .grid{
+display:grid; gap:16px; grid-template-columns: repeat(12,
+minmax(0,1fr)) }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .span-12{
+grid-column: span 12 }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .span-6{
+grid-column: span 6 }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .span-4{
+grid-column: span 4 }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    @media
+(max-width: 900px){ .span-6,.span-4{ grid-column: span 12 } }</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    h2{ font-size:
+clamp(22px, 2.7vw, 30px); margin: 6px 0 14px }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    h3{ font-size:
+18px; margin: 18px 0 10px }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .pill{
+display:inline-flex; gap:8px; align-items:center; font-size: 12px;
+padding:6px 10px; border-radius: 999px; border:1px solid var(--line);
+background: color-mix(in oklab, var(--panel) 90%, var(--brand) 10%) }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .kicker{
+text-transform: uppercase; letter-spacing: .14em; font-size: 11px;
+color: var(--sub) }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .list{ margin:
+8px 0 0 0; padding-left: 18px }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .list li{
+margin-bottom: 6px }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .note{
+font-size: 14px; color: var(--sub) }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .flag{
+font-weight:700; color: var(--brand) }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .badge{
+font-size: 12px; color: #0b0c10; background: var(--brand);
+border-radius: 999px; padding: 2px 8px; font-weight: 700 }</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    article.lesson{
+border:1px dashed var(--line); border-radius: 14px; padding: 16px;
+margin: 12px 0; background: color-mix(in oklab, var(--panel) 92%,
+transparent) }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    article.lesson
+header{ display:flex; align-items:center;
+justify-content:space-between; gap:10px; flex-wrap:wrap }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .meta{
+font-size: 12px; color: var(--sub) }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .callout{
+border-left: 3px solid var(--brand); padding: 8px 12px; background:
+color-mix(in oklab, var(--panel) 92%, transparent); border-radius:
+8px }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .kbd{
+font-family: ui-monospace, Menlo, Consolas, monospace; font-size:
+.95em; background: #0a0c12; color:#e8eaf0; padding:.2em .45em;
+border-radius:6px; border:1px solid var(--line) }</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    details{
+border:1px dashed var(--line); border-radius:12px; padding: 12px
+14px; background: color-mix(in oklab, var(--panel) 92%, transparent)
+}</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    details summary{
+cursor:pointer; font-weight:600 }</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    .foot{ margin:
+40px 0 70px; color: var(--sub); font-size: 14px; display:flex;
+justify-content:space-between; align-items:center; gap:12px;
+flex-wrap: wrap }</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    @media print{
+header.site, .cta-row, .foot button{ display:none !important } .card{
+break-inside: avoid } .wrap{ padding: 0 } }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  &lt;/style&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">&lt;/head&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">&lt;body&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  &lt;header
+class=&quot;site&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;div
+class=&quot;inner wrap&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;a
+class=&quot;brand&quot; href=&quot;#top&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;div
+class=&quot;logo&quot; aria-hidden=&quot;true&quot;&gt;&lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;div
+style=&quot;font-weight:800&quot;&gt;Mastering GPT&#8209;5&lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;div
+class=&quot;subtitle&quot;&gt;From first prompt to working product in
+a weekend&lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;/a&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;nav
+class=&quot;toc&quot; aria-label=&quot;On-page navigation&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;a
+href=&quot;#chap1&quot;&gt;Chapter 1&lt;/a&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;a
+href=&quot;#chap2&quot;&gt;Chapter 2&lt;/a&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;a
+href=&quot;#chap3&quot;&gt;Chapter 3&lt;/a&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;a
+href=&quot;#capstone&quot;&gt;Capstone&lt;/a&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;a
+href=&quot;#assets&quot;&gt;Instructor Assets&lt;/a&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;/nav&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  &lt;/header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  &lt;main id=&quot;top&quot;
+class=&quot;wrap&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;section
+class=&quot;hero card&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;div
+class=&quot;kicker&quot;&gt;Course&lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;h1&gt;Mastering
+GPT&#8209;5 in 3 Chapters — Complete Edition&lt;/h1&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;p
+class=&quot;subtitle&quot;&gt;Audience: creators, freelancers, indie
+builders • Level: beginner → intermediate • Format: 3 chapters,
+9 lessons, 3 labs + capstone • Single&#8209;file HTML&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;div
+class=&quot;cta-row&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;button
+class=&quot;btn primary&quot; onclick=&quot;window.print()&quot;&gt;Print
+/ Save as PDF&lt;/button&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;button
+class=&quot;btn&quot; id=&quot;toggleTheme&quot; title=&quot;Toggle
+dark/light&quot;&gt;Toggle Theme&lt;/button&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;button
+class=&quot;btn ghost&quot; id=&quot;copyOutline&quot;&gt;Copy
+Outline&lt;/button&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;/section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;!-- Chapter
+1 --&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;section
+id=&quot;chap1&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;div
+class=&quot;card&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;div
+class=&quot;pill&quot; aria-hidden=&quot;true&quot;&gt;Chapter
+1&lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">       
+&lt;h2&gt;Understanding GPT&#8209;5&lt;/h2&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;p
+class=&quot;note&quot;&gt;Purpose: get familiar with GPT&#8209;5’s
+capabilities, modes, and strengths.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;article
+class=&quot;lesson&quot; id=&quot;l11&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;h3&gt;Lesson 1.1 — What’s New in GPT&#8209;5&lt;/h3&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;span
+class=&quot;meta&quot;&gt;10–15 min • overview&lt;/span&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;p&gt;GPT&#8209;5
+adds a &lt;strong&gt;reasoning (“Thinking”)&lt;/strong&gt;
+capability that kicks in for multi&#8209;step logic and complex
+planning. It improves instruction following, reduces hallucinations,
+and handles longer contexts more reliably. In practice, this means
+better results for research synthesis, code refactoring, data
+analysis, and multi&#8209;stage content creation.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;div
+class=&quot;callout&quot;&gt;&lt;strong&gt;Key shifts:&lt;/strong&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;ul
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">             
+&lt;li&gt;Deeper reasoning when tasks are ambiguous or
+multi&#8209;stage&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">             
+&lt;li&gt;Cleaner adherence to format and style constraints&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">             
+&lt;li&gt;More consistent citation and verification prompts&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;/ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;h4&gt;Quick
+demo prompts&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;ul
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;span class=&quot;kbd&quot;&gt;Plan → Draft →
+Refine:&lt;/span&gt; “Create a 3&#8209;section blog outline, draft
+it in 500 words, then refine for skim&#8209;readers with
+bullets.”&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;span class=&quot;kbd&quot;&gt;Evidence mode:&lt;/span&gt;
+“Summarize the key claims &lt;em&gt;and&lt;/em&gt; list what a
+fact&#8209;check would verify.”&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/article&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;article
+class=&quot;lesson&quot; id=&quot;l12&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;h3&gt;Lesson 1.2 — Choosing the Right Mode&lt;/h3&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;span
+class=&quot;meta&quot;&gt;10 min • decision rules&lt;/span&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;p&gt;Use
+&lt;strong&gt;Chat&lt;/strong&gt; for speed and drafting; use
+&lt;strong&gt;Thinking&lt;/strong&gt; when the task requires careful
+step&#8209;by&#8209;step logic, long context juggling, or non&#8209;trivial
+coding. When in doubt, ask GPT&#8209;5 to decide and justify the
+choice.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;h4&gt;Heuristics&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;ul
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;strong&gt;Chat:&lt;/strong&gt; social posts, ad copy,
+simple Q&amp;A, small edits&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;strong&gt;Thinking:&lt;/strong&gt; multi&#8209;step
+plans, architecture decisions, data cleaning, refactoring&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;strong&gt;Switch:&lt;/strong&gt; if results feel
+shallow, ask: “Re&#8209;attempt using deeper reasoning; show steps,
+then final.”&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;h4&gt;Meta&#8209;prompt&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;pre
+class=&quot;kbd&quot;
+style=&quot;display:block;white-space:pre-wrap&quot;&gt;Decide
+whether to use Chat or Thinking for this task. Explain your choice in
+2 lines. Then do the work.&lt;/pre&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/article&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;article
+class=&quot;lesson&quot; id=&quot;l13&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;h3&gt;Lesson 1.3 — Prompt Basics That Work&lt;/h3&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;span
+class=&quot;meta&quot;&gt;15–20 min • patterns&lt;/span&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;p&gt;Great
+prompts combine &lt;em&gt;constraints&lt;/em&gt; + &lt;em&gt;structure&lt;/em&gt;
++ &lt;em&gt;samples&lt;/em&gt;. Aim for predictable outputs you can
+reuse.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;h4&gt;Patterns&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;ul
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;strong&gt;CRISP:&lt;/strong&gt; &lt;em&gt;Context →
+Role → Intent → Structure → Parameters&lt;/em&gt;&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;strong&gt;Loop:&lt;/strong&gt; plan → draft →
+critique → refine&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;strong&gt;Guardrails:&lt;/strong&gt; “If info is
+uncertain, flag it and propose how to verify.”&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;h4&gt;Reusable templates&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;pre
+class=&quot;kbd&quot;
+style=&quot;display:block;white-space:pre-wrap&quot;&gt;Write a
+{format} for {audience}. Tone: {tone}. Length: {length}. Include:
+{checklist}. Finish with a 5&#8209;item action list.&lt;/pre&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;pre
+class=&quot;kbd&quot;
+style=&quot;display:block;white-space:pre-wrap&quot;&gt;Think
+step&#8209;by&#8209;step. First outline, then produce the final. If a
+step is ambiguous, ask for a reasonable assumption and
+continue.&lt;/pre&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/article&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;details&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;summary&gt;Lab A — Chat vs. Thinking (25 min)&lt;/summary&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;ol
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;li&gt;Pick
+a familiar topic.&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;li&gt;Run:
+“Draft a 400&#8209;word explainer for beginners.” in
+&lt;strong&gt;Chat&lt;/strong&gt;.&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;Re&#8209;run with: “Now solve with deeper reasoning and
+show steps first.”&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;Compare depth, structure, and correctness; write a 3&#8209;line
+rule you’ll use going forward.&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/ol&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;p
+class=&quot;note&quot;&gt;Deliverable: your personal “When I use
+Thinking vs Chat” rule card.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/details&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;/section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;!-- Chapter
+2 --&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;section
+id=&quot;chap2&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;div
+class=&quot;card&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;div
+class=&quot;pill&quot;&gt;Chapter 2&lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;h2&gt;Creating
+with GPT&#8209;5 (No Code)&lt;/h2&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;p
+class=&quot;note&quot;&gt;Purpose: use GPT&#8209;5 for content,
+ideas, and tools without writing code.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;article
+class=&quot;lesson&quot; id=&quot;l21&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;h3&gt;Lesson 2.1 — Everyday Creative Uses&lt;/h3&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;span
+class=&quot;meta&quot;&gt;20–25 min • content systems&lt;/span&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;p&gt;Stand
+up repeatable systems for content: ideation → outline → draft →
+repurpose.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;h4&gt;Workflows&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;ul
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;strong&gt;Blog pipeline:&lt;/strong&gt; 20 titles → 5
+briefs → 1 draft → 5 repurposed posts&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;strong&gt;Video script kit:&lt;/strong&gt; Hook →
+Promise → Proof → How&#8209;to → CTA&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;strong&gt;Research digest:&lt;/strong&gt; 5 sources →
+10 insights → 3 takeaways → action plan&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;h4&gt;Reusable prompts&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;pre
+class=&quot;kbd&quot;
+style=&quot;display:block;white-space:pre-wrap&quot;&gt;Create 20
+video titles on {topic} for {audience}. Sort by novelty and
+difficulty. Mark top 5 with ⭐.&lt;/pre&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;pre
+class=&quot;kbd&quot; style=&quot;display:block;white-space:pre-wrap&quot;&gt;Turn
+this outline into a 90&#8209;second script. Keep sentences tight. Add
+one surprising fact with a source placeholder.&lt;/pre&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/article&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;article
+class=&quot;lesson&quot; id=&quot;l22&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;h3&gt;Lesson 2.2 — Building Assets&lt;/h3&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;span
+class=&quot;meta&quot;&gt;20 min • landing pages &amp; copy&lt;/span&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;p&gt;Have
+GPT&#8209;5 generate on&#8209;brand copy and wireframes you can paste
+into a one&#8209;file website.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;h4&gt;Deliverables&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;ul
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;li&gt;Hero
+statement + benefits + proof + CTA&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;li&gt;FAQ
+(5–7 items) and objection handling&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;Policy stubs: privacy, refund, terms (lite)&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;h4&gt;Prompt&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;pre
+class=&quot;kbd&quot;
+style=&quot;display:block;white-space:pre-wrap&quot;&gt;Write
+conversion&#8209;focused landing copy for {offer}. Audience: {who}.
+Tone: {tone}. Include hero, 3 benefits, social proof, FAQ, CTA.
+Finish with HTML structure hints (section ids).&lt;/pre&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/article&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;article
+class=&quot;lesson&quot; id=&quot;l23&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;h3&gt;Lesson 2.3 — Your Workflow Stack&lt;/h3&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;span
+class=&quot;meta&quot;&gt;15 min • ops&lt;/span&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;p&gt;Combine
+GPT&#8209;5 with your everyday tools (Notion, Google Docs, Canva) and
+enforce consistency with brand rules.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;h4&gt;Brand
+rules example&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;ul
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;Voice: warm, concise, no fluff, xennial humor&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;Formatting: short paragraphs, bullets, bold benefit
+labels&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;Forbidden: generic claims without proof or example&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;h4&gt;Prompt
+library starter&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;pre
+class=&quot;kbd&quot;
+style=&quot;display:block;white-space:pre-wrap&quot;&gt;Rephrase to
+match brand: warm, concise, confident. Keep under 120 words. End with
+one action line.&lt;/pre&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/article&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;details&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;summary&gt;Lab B — One&#8209;Page Website (45–60
+min)&lt;/summary&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;ol
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;li&gt;Ask
+GPT&#8209;5 for copy + &lt;em&gt;single&#8209;file&lt;/em&gt; HTML
+with clean CSS.&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;Request a publish plan for GitHub Pages/Netlify.&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;li&gt;Run
+a mobile viewport checklist (Lighthouse hints).&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/ol&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;p
+class=&quot;note&quot;&gt;Deliverable: live landing page URL +
+checklist.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/details&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;/section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;!-- Chapter
+3 --&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;section
+id=&quot;chap3&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;div
+class=&quot;card&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;div
+class=&quot;pill&quot;&gt;Chapter 3&lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">       
+&lt;h2&gt;Automating &amp; Extending with GPT&#8209;5&lt;/h2&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;p
+class=&quot;note&quot;&gt;Purpose: learn basic automation and light
+development using GPT&#8209;5.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;article
+class=&quot;lesson&quot; id=&quot;l31&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;h3&gt;Lesson 3.1 — GPT&#8209;5 in the API&lt;/h3&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;span
+class=&quot;meta&quot;&gt;20–30 min • dev basics&lt;/span&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;p&gt;Understand model choices, context limits, and the knobs that
+trade speed, cost, and depth.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;h4&gt;Cheat
+sheet&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;ul
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;strong&gt;Models:&lt;/strong&gt; gpt&#8209;5
+(flagship), gpt&#8209;5&#8209;mini (fast/cheap)&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;strong&gt;Context:&lt;/strong&gt; large enough for long
+briefs &amp; docs; chunk when needed&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;strong&gt;Controls:&lt;/strong&gt; temperature, max
+tokens, JSON mode, reasoning/verbosity (if available)&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;h4&gt;Spec
+prompt&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;pre
+class=&quot;kbd&quot; style=&quot;display:block;white-space:pre-wrap&quot;&gt;You
+are a systems designer. Produce a JSON spec with: goal, inputs,
+steps, risks, outputs. Keep keys snake_case. Validate it is parseable
+JSON.&lt;/pre&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/article&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;article
+class=&quot;lesson&quot; id=&quot;l32&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;h3&gt;Lesson 3.2 — Tool Calling &amp; Agents&lt;/h3&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;span
+class=&quot;meta&quot;&gt;25–35 min • agent pattern&lt;/span&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;p&gt;Design
+a compact agent: plan → call tools → verify → finalize. Keep
+tool contracts tight and idempotent.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;h4&gt;Pattern&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;ul
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;Planner: produce numbered steps and required tool
+calls&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;Executor: call tools, attach results, handle failures&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;Verifier: cross&#8209;check assumptions, surface
+uncertainty&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;h4&gt;Guardrails&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;ul
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;Structured outputs (JSON schemas)&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;Time/size limits; safe fallbacks on error&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;li&gt;Logs
+for each tool call&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/article&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;article
+class=&quot;lesson&quot; id=&quot;l33&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;h3&gt;Lesson 3.3 — Safe &amp; Reliable Deployment&lt;/h3&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;span
+class=&quot;meta&quot;&gt;20 min • prod hardening&lt;/span&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/header&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;p&gt;Ship
+small and observable. Add pre&#8209;flight validation, content
+checks, and a refusal backstop for unsafe requests.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;h4&gt;Deployment checklist&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;ul
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;Schema validation + length caps&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;Retry with backoff; escalate to human review on repeated
+failure&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;li&gt;Unit
+prompts for critical paths&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;h4&gt;Release note template&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;pre
+class=&quot;kbd&quot;
+style=&quot;display:block;white-space:pre-wrap&quot;&gt;Version
+{x.y.z}: Added schema checks; reduced temperature to 0.4 for
+summaries; logged tool_failures with reason field.&lt;/pre&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/article&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;details&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;summary&gt;Lab C — Micro&#8209;Agent (60–90 min)&lt;/summary&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;ol
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;strong&gt;Input:&lt;/strong&gt; topic + assets
+list.&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;strong&gt;Steps:&lt;/strong&gt; outline lessons →
+draft scripts → create upload checklist → generate course page
+HTML → summary email.&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;li&gt;&lt;strong&gt;Output:&lt;/strong&gt; a zipped bundle
+(outline.md, scripts/, page.html, email.txt).&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/ol&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;p
+class=&quot;note&quot;&gt;Tip: benchmark minimal vs. high reasoning
+depth and record time/quality trade&#8209;offs.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/details&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;/section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;!-- Capstone
+--&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;section
+id=&quot;capstone&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;div
+class=&quot;card&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;span
+class=&quot;badge&quot; aria-hidden=&quot;true&quot;&gt;Capstone&lt;/span&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;h2&gt;Plan
+• Build • Ship&lt;/h2&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;div
+class=&quot;grid&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;div
+class=&quot;span-12&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;p&gt;&lt;strong&gt;Plan:&lt;/strong&gt; Validate a course or
+digital product with GPT&#8209;5 Thinking: problem, audience, proof,
+pricing. Ask for risks and counter&#8209;moves.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;p&gt;&lt;strong&gt;Build:&lt;/strong&gt; Generate a branded,
+responsive landing page + email capture + 3&#8209;email welcome
+series.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;p&gt;&lt;strong&gt;Ship:&lt;/strong&gt; Publish via GitHub
+Pages/Netlify, record a 3&#8209;minute teaser, and post.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;p
+class=&quot;note&quot;&gt;&lt;strong&gt;Scorecard:&lt;/strong&gt;
+time to ship • errors caught • sign&#8209;ups in 7 days •
+feedback notes.&lt;/p&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">           
+&lt;h4&gt;Rubric (10&#8209;point)&lt;/h4&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;ul
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">             
+&lt;li&gt;Idea clarity (0–2)&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">             
+&lt;li&gt;Execution quality (0–3)&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">             
+&lt;li&gt;Operational readiness (0–3)&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">             
+&lt;li&gt;Audience signal (0–2)&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">            &lt;/ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">          &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;/section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;!--
+Instructor assets --&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;section
+id=&quot;assets&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;div
+class=&quot;card&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;div
+class=&quot;pill&quot;&gt;Instructor Assets&lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">       
+&lt;h2&gt;Done&#8209;For&#8209;You Materials&lt;/h2&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;ul
+class=&quot;list&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;li&gt;&lt;strong&gt;Slide headlines&lt;/strong&gt; — one per
+lesson&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;li&gt;&lt;strong&gt;Cheat sheets&lt;/strong&gt; — prompt
+patterns, agent blueprint, deployment checklist&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;li&gt;&lt;strong&gt;Demo scripts&lt;/strong&gt; — Ch1
+reliability sprint • Ch2 one&#8209;prompt website • Ch3
+micro&#8209;agent&lt;/li&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/ul&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;details&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">         
+&lt;summary&gt;Leonardo thumbnail prompt (optional)&lt;/summary&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">&lt;pre class=&quot;kbd&quot;
+style=&quot;display:block;white-space:pre-wrap&quot;&gt;YouTube
+thumbnail, bold cinematic lighting, text: “GPT&#8209;5 in 15
+Minutes”, neon xennial vibe, clean sans-serif headline, subject:
+confident woman at laptop, subtle waveform accents, no clutter, high
+contrast.&lt;/pre&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;/details&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;/section&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;div
+class=&quot;foot&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;span&gt;©
+2025 • Mastering GPT&#8209;5 • Single&#8209;file HTML
+(Complete)&lt;/span&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;div
+class=&quot;cta-row&quot;&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        &lt;button
+class=&quot;btn&quot; id=&quot;copyURL&quot;&gt;Copy Page as Data
+URL&lt;/button&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    &lt;/div&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  &lt;/main&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  &lt;script&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    // Smooth TOC
+highlighting</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    const links =
+Array.from(document.querySelectorAll('nav.toc a'));</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    const ids =
+links.map(a =&gt; a.getAttribute('href').substring(1));</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    const sections =
+ids.map(id =&gt; document.getElementById(id));</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    const onScroll =
+() =&gt; { const y = window.scrollY + 120; let activeIndex = 0;
+sections.forEach((sec, i) =&gt; { if (sec &amp;&amp; sec.offsetTop &lt;=
+y) activeIndex = i; }); links.forEach((a, i) =&gt;
+a.classList.toggle('active', i === activeIndex)); };</p>
+<p style="line-height: 100%; margin-bottom: 0cm">   
+document.addEventListener('scroll', onScroll, { passive: true });
+onScroll();</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    // Theme toggle</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    const btnTheme =
+document.getElementById('toggleTheme');</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    let forcedLight
+= false; btnTheme?.addEventListener('click', () =&gt; { forcedLight =
+!forcedLight; document.documentElement.style.colorScheme =
+forcedLight ? 'light' : 'dark'; btnTheme.textContent = forcedLight ?
+'Use Dark Theme' : 'Use Light Theme'; });</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    // Copy outline</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    const btnCopy =
+document.getElementById('copyOutline');</p>
+<p style="line-height: 100%; margin-bottom: 0cm">   
+btnCopy?.addEventListener('click', async () =&gt; {</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      const outline
+= `Mastering GPT-5 (3 Chapters — Complete)</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">`+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        `Chapter 1 —
+Understanding GPT-5</p>
+<p style="line-height: 100%; margin-bottom: 0cm">`+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        `  • L1.1
+What's New</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  • L1.2 Choosing
+the Right Mode</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  • L1.3 Prompt
+Basics</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  ◦ Lab A — Chat
+vs. Thinking</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">`+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        `Chapter 2 —
+Creating with GPT-5 (No Code)</p>
+<p style="line-height: 100%; margin-bottom: 0cm">`+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        `  • L2.1
+Everyday Creative Uses</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  • L2.2 Building
+Assets</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  • L2.3 Workflow
+Stack</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  ◦ Lab B —
+One-Page Website</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">`+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        `Chapter 3 —
+Automating &amp; Extending with GPT-5</p>
+<p style="line-height: 100%; margin-bottom: 0cm">`+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">        `  • L3.1
+GPT-5 in the API</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  • L3.2 Tool
+Calling &amp; Agents</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  • L3.3 Safe
+Deployment</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  ◦ Lab C —
+Micro-Agent</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">Capstone — Plan •
+Build • Ship`;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      try { await
+navigator.clipboard.writeText(outline); btnCopy.textContent =
+'Outline Copied ✓'; setTimeout(()=&gt;btnCopy.textContent='Copy
+Outline', 1800);} catch(e){ alert('Copy failed: '+e.message) }</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    });</p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    // Copy page as
+data URL</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    const btnDataUrl
+= document.getElementById('copyURL');</p>
+<p style="line-height: 100%; margin-bottom: 0cm">   
+btnDataUrl?.addEventListener('click', async ()=&gt;{</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      const blob =
+new Blob([document.documentElement.outerHTML], {type:'text/html'});</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      const fr = new
+FileReader();</p>
+<p style="line-height: 100%; margin-bottom: 0cm">      fr.onload =
+async () =&gt; { try { await
+navigator.clipboard.writeText(fr.result);
+btnDataUrl.textContent='Data URL Copied ✓';
+setTimeout(()=&gt;btnDataUrl.textContent='Copy Page as Data URL',
+1800);} catch(e){ alert('Copy failed: '+e.message) } };</p>
+<p style="line-height: 100%; margin-bottom: 0cm">     
+fr.readAsDataURL(blob);</p>
+<p style="line-height: 100%; margin-bottom: 0cm">    });</p>
+<p style="line-height: 100%; margin-bottom: 0cm">  &lt;/script&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">&lt;/body&gt;</p>
+<p style="line-height: 100%; margin-bottom: 0cm">&lt;/html&gt;</p>
+</body>
+</html>
